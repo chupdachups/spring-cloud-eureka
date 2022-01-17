@@ -1,0 +1,8 @@
+server:
+  port: ${service_port:8761}
+
+spring:
+  application:
+    name: eureka
+  profiles:
+    active: ${profile:local}
